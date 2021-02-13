@@ -1,0 +1,48 @@
+body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+height: 100%;
+padding-left: 0px;
+margin: 0px;
+}
+#mainContainer {
+  height: 100%;
+}
+#logoBox {
+  width: 40px;
+  height: 40px;
+  background-color: #ff0072;
+  top: 10px;
+  right: 10px;
+  position: fixed;
+}
+
+#menu {
+  height: 100%;
+  width: 250px;
+  background-color: #ccc;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+#contentContainer {
+  padding-left: 250px
+}
+
+#headerSection {
+  height: 432px;
+  width: 764px;
+  background-image: url(https://images.foxtv.com/static.fox29.com/www.fox29.com/content/uploads/2019/05/764/432/wawa_generic_01_041419.jpg?ve=1&tl=1)
+}
+
+#thumbGallery {
+  max-width: 300px;
+  max-height: 300px;
+  width:auto;
+  height: auto;
+}
