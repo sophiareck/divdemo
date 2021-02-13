@@ -2,6 +2,8 @@ body{
   height: 100%;
   padding: 0px;
   margin: 0px;
+  background-color: #6a7b7a;
+  font-family: georgia;
 }
 
 html {
@@ -9,22 +11,23 @@ height: 100%;
 padding-left: 0px;
 margin: 0px;
 }
+h1{
+  padding: 10px;
+font-size: 80px;
+  text-shadow: 3px 3px #b2c9ab;
+}
+h2{
+  text-align: center;
+  padding: 3px;
+}
 #mainContainer {
   height: 100%;
-}
-#logoBox {
-  width: 40px;
-  height: 40px;
-  background-color: #ff0072;
-  top: 10px;
-  right: 10px;
-  position: fixed;
 }
 
 #menu {
   height: 100%;
   width: 250px;
-  background-color: #ccc;
+  background-color: #788aa3;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -35,14 +38,21 @@ margin: 0px;
 }
 
 #headerSection {
-  height: 432px;
-  width: 764px;
-  background-image: url(https://images.foxtv.com/static.fox29.com/www.fox29.com/content/uploads/2019/05/764/432/wawa_generic_01_041419.jpg?ve=1&tl=1)
+  width: 100%;
+  height: 300px;
+  background-size: 100%, 100%;
+  background-image: url(https://www.irishtimes.com/polopoly_fs/1.3794146.1550233871!/image/image.jpg)
 }
-
-#thumbGallery {
-  max-width: 300px;
-  max-height: 300px;
-  width:auto;
-  height: auto;
+.pictures {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+#albumArt {
+  height: 100%;
+  width: 100%;
+}
+#notebook{
+  height: 100%;
+  width: 100%;
 }
