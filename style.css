@@ -2,7 +2,7 @@ body{
   height: 100%;
   padding: 0px;
   margin: 0px;
-  background-color: #6a7b7a;
+  background-color: #152423;
   font-family: georgia;
 }
 
@@ -14,12 +14,15 @@ margin: 0px;
 h1{
   padding: 10px;
 font-size: 80px;
-  text-shadow: 3px 3px #b2c9ab;
+  text-shadow: 3px 3px #89b4b0;
+  color: #152423
 }
 h2{
   text-align: center;
+  margin: 3px;
   padding: 3px;
 }
+
 #mainContainer {
   height: 100%;
 }
@@ -27,12 +30,19 @@ h2{
 #menu {
   height: 100%;
   width: 250px;
-  background-color: #788aa3;
+  background-color: #32474e;
   position: fixed;
   top: 0px;
   left: 0px;
 }
-
+.menuHeader{
+  text-shadow: 2px 2px #152423;
+  border-bottom: solid;
+}
+.menuContent{
+  color: #c1c8bb;
+  margin: 5px;
+}
 #contentContainer {
   padding-left: 250px
 }
@@ -43,16 +53,22 @@ h2{
   background-size: 100%, 100%;
   background-image: url(https://www.irishtimes.com/polopoly_fs/1.3794146.1550233871!/image/image.jpg)
 }
-.pictures {
+#heading{
+  color: #89b4b0;
+  margin: 10px;
+}
+#pictures img {
   display: inline-block;
-  width: 300px;
-  height: 300px;
+  max-width: 400px;
+  margin: 20px;
+  padding: 3px;
+  border: double;
 }
-#albumArt {
-  height: 100%;
-  width: 100%;
+#pictures{
+  text-align: center;
 }
-#notebook{
-  height: 100%;
-  width: 100%;
+#description{
+  text-align: center;
+  color: #c1c8bb;
+  margin: 20px;
 }
